@@ -24,7 +24,7 @@ namespace ConsoleApp1
             if (loggedIn == true)
             {
                 dataLogin = DateTime.Now;
-               // StampaAccesso(dataLogin);
+                StampaDataEOraLogin();
             }
         }
 
